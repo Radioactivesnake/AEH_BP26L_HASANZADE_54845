@@ -37,3 +37,15 @@ wynik);
  } else {
  System.out.println("x equals y");
  }
+/ terminating the program by pressing a specific key
+ while(true)
+ {
+ System.out.println("Enter -1 to exit the program");
+ var input = scanner.nextDouble();
+ if(input == -1){
+ System.out.println("Exit...");
+ break;
+ }
+ }
+ scanner.close();
+ }
